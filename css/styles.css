@@ -13,15 +13,15 @@
     font-style: normal;
 }
 
-#firstArrayScreen {
+#FirstArrayScreen {
 	margin: 50px auto;
 	padding: 50px 30px;
 	width: 540px;
 	height: 350px;
 	position: relative;
-	background-color: #0d152a;
-	font-family: Arial, Helvetica, sans-serif;
-	color: white;
+	font-family: spaceAge;
+	font-size:32px;
+	color: blue;
 }
 
 #SecondArrayScreen {
@@ -30,9 +30,9 @@
 	width: 540px;
 	height: 350px;
 	position: relative;
-	background-color: #be21a9;
-	font-family: Arial, Helvetica, sans-serif;
-	color: rgb(41, 136, 57);
+	font-family: "Times New Roman", Times, serif;
+	font-size: 64px;
+	color: red;
 }
 
 #title {
@@ -89,8 +89,8 @@ button:hover {
     background-image: linear-gradient(red, yellow); /* Standard syntax (must be last) */
   }
 
-  #grad2 {
+#grad2 {
     height:600px;
-    background-color: rgb(0, 162, 255); /* For browsers that do not support gradients */
-    background-image: linear-gradient(rgb(22, 66, 133), rgb(18, 172, 108)); /* Standard syntax (must be last) */
+    background-color: blue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(yellow, blue); /* Standard syntax (must be last) */
   }

@@ -11,7 +11,7 @@ let secondArray = [];
 document.addEventListener("DOMContentLoaded", function (event) {
     // window.onload = function () {  was the old way of doing this
 
-    FirstArrayScreen.style.display = "none";
+  FirstArrayScreen.style.display = "none";
 	SecondArrayScreen.style.display = "none";
     
 });
@@ -31,7 +31,8 @@ function displayList() {
         myUl.appendChild(myLi);
         myLi.innerHTML = firstArray[i];
 	};
-	
+  
+  document.getElementById('startBtn').style.display = 'none'
 	FirstArrayScreen.style.display = "block";
 }
 
